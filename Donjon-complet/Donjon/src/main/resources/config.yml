@@ -1,0 +1,21 @@
+# ============================================================================
+#  Donjon - configuration
+# ============================================================================
+prefix: "&4&l[&c&lDonjon&4&l] &7"
+world: donjon            # nom du monde superplat créé automatiquement
+border-size: 220         # taille de la bordure du monde (blocs)
+lock-night: true         # nuit permanente, pas de pluie
+allow-natural-mobs: false  # false : aucun mob naturel dans le donjon
+
+# Les trois portails (nom affiché, message au contact). Futurs accès aux donjons.
+#   hell   = Enfer (gauche)   | castle = donjon de type château (centre)   | heaven = Cieux (droite)
+portals:
+  hell:
+    name: "&c&lPortail de l'Enfer"
+    message: "&cLes flammes de l'Enfer rugissent derrière la membrane... le portail est encore scellé."
+  castle:
+    name: "&7&lPortail du Château"
+    message: "&7Les herses du Château grincent derrière la porte dorée... elle s'ouvrira bientôt."
+  heaven:
+    name: "&6&lPortail des Cieux"
+    message: "&6La lumière des Cieux est aveuglante... le portail s'ouvrira bientôt."
